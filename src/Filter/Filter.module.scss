@@ -1,0 +1,54 @@
+.container{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 252px;
+
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    justify-self: start;
+    text-align: start;
+}
+.item{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 10px 10px 10px 20px;
+    
+}
+.item_true{
+    background: #F1FCFF;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9ABBCE;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+.true{
+    background-image: url("../assets/Shape.svg");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
+    border: 1px solid #2196F3;
+}
+.false{
+    background-image: none;
+}
+.text{
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+

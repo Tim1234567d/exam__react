@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.App {
+    font-family: "Open Sans";
+    color: #4A4A4A;
+    padding-left: 103px;
+    padding-right: 102px;
+    text-align: center;
+}
+@media (max-width: 770px){
+    .App {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
